@@ -24,7 +24,7 @@ melodia = \relative c'' {
   es2 d2 | es2 f2 | es1 | r1 | r1 | r1 | \break
   
   es2. d8 es8 | c4' bes4 bes4 as4 | as8  g4 g8~ g2 | es2~ es8 c4 es8 | \break
-  c4' bes8 bes4. as4 | ges4  as8 bes8~ bes2~ | bes2. r4 | r1 | r1 | r1 | r1 | \bar "|."
+  c4' bes8 bes4. as4 | ges4  as8 bes8~ bes2~ | bes2. r4 | r1 | \bar "|."
 }
 
 soinnut = \chordmode {
@@ -35,7 +35,7 @@ soinnut = \chordmode {
   f2:m7 b2:7 | f2:m7 b2:m7 | es2 es2:7 | as2 as2:m | es1 | as:7 |
  % \ mark \markup {\musicglyph "scripts.coda":} % Piirrä coda
    
-  as | bes:7 | bes | as | bes:7 | bes2.:7 es2:maj7 | f4.:m7 g4.:m7 as4:6 | f:m7 g:m7 as:6 es2:7 | as2 as2:m | es1 | es:maj7 |
+  as | bes:7 | bes | as | bes:7 | bes2.:7 es2:maj7 | f4.:m7 g4.:m7 as4:6 | f:m7 g:m7 as:6 |
 }
 
 sakeistoYksi = \lyricmode {
