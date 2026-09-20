@@ -9,7 +9,7 @@
 customChordExceptions = {
   <c e g b>1-\markup { \whiteout \tiny "maj7" }
 }
-chordsWithMajSeven = #(append customChordExceptions ignatzekExceptions)
+%chordsWithMajSeven = #(append customChordExceptions ignatzekExceptions)
 
 melodia = \relative c'' {
   \clef treble
