@@ -27,7 +27,7 @@ melodia = \relative c'' {
   es1 | r1 | r1 | r1 | \break
   
  
-  es2. d8 es8 | c4' bes4 bes4 as4 | as8  g4 g8~ g2 | r1 | \break
+  es2~ es8 c4 es8 | c4' bes4 bes4 as4 | as8  g4 g8~ g2 | r1 | \break
   % Tahdit 23-26
   es2~ es8 c4 es8 | c4' bes8 bes4. as4 | ges4  as8 bes8~ bes2~ | bes2. r4 | \break
   r1 | r1 |
@@ -45,7 +45,7 @@ soinnut = \chordmode {
   es2 bes2 | c:m c:m7 | as1 | bes:7 |
   es1 | es:7 | as | as:m |
   es2 bes2 | c:m c:m7 | f4.:m7 g4.:m7 as4:6 | f8:m7 g4:m7 as4.:6 r4 | 
-  f2:m7 b2:7 | f2:m7 b2:7 | es2 es2:7 | as2 as2:m | es1 | bes1:7 |
+  f2:m7 bes2:7 | f2:m7 bes2:7 | es2 es2:7 | as2 as2:m | es1 | bes1:7 |
    
   as | bes:7  | es | bes:maj7 | as | bes:7  | ges | bes2:7 es2:maj7 |
   f4.:m7 g4.:m7 as4:6 | f8:m7 g4:m7 as8:6 r4 |
