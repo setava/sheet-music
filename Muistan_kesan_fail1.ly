@@ -21,8 +21,8 @@ melodia = \relative c'' {
   
   % Kertauksen loppu tai paluu teemaan
   g8 bes8 bes8 c8 bes4. as8 | g8 f8 es2 es4| as4. g8~ g4 f4| as8 g4 f4 g8 f4 |  \break
-  es2 d2 | es2 f2 | es1 | \break
-  r1 | r1 | r1 |
+  es2 d2 | es2 f2 | es1 | r1 | r1 | r1 | \break
+  
   es2. d8 es8 | c4' bes4 bes4 as4 | as8  g4 g8~ g2 | es2~ es8 c4 es8 | \break
   c4' bes8 bes4. as4 | ges4  as8 bes8~ bes2~ | bes2.
   \bar "|."
