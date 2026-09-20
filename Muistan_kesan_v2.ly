@@ -5,6 +5,12 @@
   composer = "Rauno Lehtinen"
 }
 
+% Luodaan poikkeussääntö, jolla maj7-sointu tulostetaan aina tekstinä "maj7" kolmion sijaan
+customChordExceptions = {
+  <c e g b>1-\markup { \whiteout \tiny "maj7" }
+}
+chordsWithMajSeven = #(append customChordExceptions ignatzekExceptions)
+
 melodia = \relative c'' {
   \clef treble
   \key es \major
@@ -38,6 +44,9 @@ melodia = \relative c'' {
 }
 
 soinnut = \chordmode {
+ % Otetaan käyttöön räätälöity maj7-tekstiasu
+  \set chordNameExceptions = #chordsWithMajSeven
+
   es2 bes2 | c:m c:m7 | as1 | bes:7 |
   es2 bes2 | c:m c:m7 | as1 | bes:7 |
   es1 | es:7 | as | as:m |
