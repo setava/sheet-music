@@ -21,7 +21,9 @@ melodia = \relative c'' {
   % Kertauksen loppu tai paluu teemaan
   g8 bes8 bes8 c8 bes4. as8 | g8 f8 es2 es4| as4. g4. f4| as8 g4 f4 g8 f4 |  \break
   es2 d2 | es2 f2 | es1 | \break
-  es2. d8 es4 | c4.' bes4 bes4 as4 | as8 a8 g4 f | f1 \bar "|."
+  es2. d8 es8 | c4' bes4 bes4 as4 | as8  g4. g2 | es2 es8 c4 es8 | \break
+  c4' bes8 bes4. as4 | ges4  as8 | bes2.:7 
+  \bar "|."
 }
 
 soinnut = \chordmode {
@@ -43,7 +45,7 @@ sakeistoYksi = \lyricmode {
   vie jäl -- leen -- mun sin -- ne luok -- ses sun vie -- lä uu -- des -- taan.
   
   Tie, jon -- ka löy -- tää vain, kun ra -- kas -- taa.
-  Tie, jon -- ka hiek -- ka on niin polt -- ta -- vaa.
+  Ti -- e, jon -- ka hiek -- ka on niin polt -- ta -- vaa.
   
   
   mie -- les -- tä ei haih -- du mil -- loin -- kaan.
