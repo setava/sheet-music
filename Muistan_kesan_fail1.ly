@@ -34,6 +34,7 @@ soinnut = \chordmode {
   es1 | es:7 | as | as:m |
   es2 bes2 | c:m c:m7 | f4.:m7 g4.:m7 as4:6 | f8:m7 g4:m7 as4.:6 r4 | f2:m7 b2:7 
   f2:m7 b2:m7 | es2 es2:7 | as2 as2:m | es1 | es:maj7 | 
+  as | bes:7 | ges | bes:7 es:maj7 |
 }
 
 sakeistoYksi = \lyricmode {
